@@ -10,9 +10,20 @@
     "start:prod": "NODE_ENV=production node dist/api/server.js",
     "dev": "tsx src/api/server.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "ai",
+    "memory",
+    "cognitive-architecture",
+    "knowledge-graph",
+    "sleep-cycles",
+    "agents",
+    "llm",
+    "openmemory",
+    "brain",
+    "vector-search"
+  ],
+  "author": "Cove AI <hello@coveai.dev>",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.4.0",
     "tsx": "^4.21.0",

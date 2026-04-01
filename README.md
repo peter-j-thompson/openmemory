@@ -1,11 +1,21 @@
 # OpenMemory
 
-**The cognitive architecture for AI agents. Not another vector store.**
+**A 7-layer cognitive memory system for AI agents — with sleep cycles.**
+
+> Most AI memory is a filing cabinet. Vector store + retrieval. It works until it doesn't.
+> OpenMemory is a brain. It has identity, relationships, emotions, learned procedures,
+> and a consolidation engine that makes your agent smarter overnight.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-blue.svg)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-ready-blue.svg)](docker-compose.yml)
+
+<p align="center">
+  <img src="docs/architecture.svg" alt="OpenMemory Architecture" width="700" />
+</p>
+
+📖 **[See the end-to-end demo →](docs/DEMO.md)** — watch what happens when memories go through a sleep cycle.
 
 ---
 
