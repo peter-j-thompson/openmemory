@@ -1,5 +1,5 @@
--- Open Memory — Database Schema
--- Open Memory database schema. March 11, 2026.
+-- OpenMemory — Database Schema
+-- OpenMemory database schema. March 11, 2026.
 --
 -- Schema for 7-layer cognitive memory architecture.
 

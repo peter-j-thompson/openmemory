@@ -29,7 +29,7 @@ OpenMemory does all of it.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                   OPEN MEMORY                           │
+│                   OPENMEMORY                           │
 │                                                         │
 │  ┌─────────────────────────────────────────────────┐   │
 │  │  7. META-MEMORY    — Consolidation + Health     │   │

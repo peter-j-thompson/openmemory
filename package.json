@@ -1,7 +1,7 @@
 {
   "name": "openmemory",
   "version": "1.0.0",
-  "description": "7-layer cognitive memory architecture for AI agents. Sleep cycles, knowledge graphs, emotional context, identity persistence.",
+  "description": "7-layer cognitive memory architecture for AI agents. Sleep cycles, knowledge graphs, emotional context, identity persistence. Not another vector store.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

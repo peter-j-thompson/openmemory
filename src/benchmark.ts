@@ -223,7 +223,7 @@ function scoreResults(
 // ============================================================
 
 async function runHealth() {
-  console.log('\n🧠 OPEN MEMORY — System Health Check\n');
+  console.log('\n🧠 OPENMEMORY — System Health Check\n');
   
   // DB health
   const dbHealth = await healthCheck();
@@ -260,7 +260,7 @@ async function runHealth() {
 }
 
 async function runIngest() {
-  console.log('\n🧠 OPEN MEMORY — Ingesting from Markdown Files\n');
+  console.log('\n🧠 OPENMEMORY — Ingesting from Markdown Files\n');
   console.log('⚠️  READ-ONLY on markdown files. Writing to OpenMemory DB only.\n');
   
   const withEmbeddings = process.argv.includes('--embeddings');
@@ -289,7 +289,7 @@ async function runIngest() {
 }
 
 async function runBenchmark() {
-  console.log('\n🧠 OPEN MEMORY — Benchmark Suite\n');
+  console.log('\n🧠 OPENMEMORY — Benchmark Suite\n');
   console.log(`Running ${TEST_CASES.length} test cases against OpenMemory...\n`);
   
   const results: BenchmarkResult[] = [];
@@ -638,7 +638,7 @@ async function main() {
         const procStats = await getProcedureStats();
         const people = await getAllPersonModels();
         
-        console.log('\n🧠 OPEN MEMORY — Full Brain Status\n');
+        console.log('\n🧠 OPENMEMORY — Full Brain Status\n');
         console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
         console.log('LAYER 0+1: Semantic Memory (Knowledge Graph)');
         console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
