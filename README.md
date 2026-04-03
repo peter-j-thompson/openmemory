@@ -16,6 +16,9 @@
 </p>
 
 📖 **[See the end-to-end demo →](docs/DEMO.md)** — watch what happens when memories go through a sleep cycle.
+
+⭐ If you find this useful, a star helps us grow — [star OpenMemory](https://github.com/peter-j-thompson/openmemory)
+
 OpenMemory is a **persistent AI memory** system for AI agents — a drop-in backend that replaces simple vector stores (Pinecone, Chroma, Weaviate) with a structured, Postgres-native cognitive memory architecture. Built for teams who need more than retrieval: agents that *remember*, *learn*, and *grow* across sessions.
 
 ---
@@ -295,3 +298,4 @@ We welcome contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
