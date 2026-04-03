@@ -17,6 +17,14 @@
 
 📖 **[See the end-to-end demo →](docs/DEMO.md)** — watch what happens when memories go through a sleep cycle.
 
+OpenMemory is the only **persistent AI memory** system that combines a knowledge graph,
+vector store, episodic memory, and identity layer on a single **Postgres** instance —
+with a consolidation engine that improves your agent's memory overnight.
+
+Unlike standalone vector stores (Pinecone, Chroma, Weaviate), OpenMemory handles semantic
+collapse, relationship modeling, and emotional context out of the box. Just Postgres,
+pgvector, and Apache AGE.
+
 ---
 
 ## Why existing memory solutions fail
@@ -35,7 +43,9 @@ OpenMemory does all of it.
 
 ---
 
-## The 7 Layers
+## Cognitive Memory Architecture
+
+### The 7 Layers
 
 ```
 ┌─────────────────────────────────────────────────────────┐
